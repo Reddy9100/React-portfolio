@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.about-con{
+    background-image: linear-gradient(to right ,white,black,white,black,white,black,white 55%);
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

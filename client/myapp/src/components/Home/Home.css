@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.home-con{
+    background-image: linear-gradient(to left,black,white,black,white,black,white,black 50%);
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.inner-home{
+    margin: 20rem;
+
+}
+.home-head{
+    color: white;
+    font-size: 5rem;
+}
+.home-para{
+    color: aqua;
+    font-size: 1.5rem;
+
+    width:350px;
+}
+.home-btn{
+    background-image: linear-gradient(to right,rgb(243, 153, 153),white,rgb(224, 184, 184),white,rgb(247, 198, 198),white);
+    padding: 1rem;
+    border: white 2px solid;
+    border-radius: 9px;
+    color: black;
+    font-weight: 800;
+}
+
+.home-img{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.icons-home{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+
+}
+.icon-home-fb{
+    font-size: 50px;
+    transition: all 1s ease-out;
+    color: white;
+}
+.icon-home-fb:hover{
+    color: #316FF6;
+}
+
+.icon-home-link{
+    font-size: 50px;
+    transition: all 1s ease-out;
+    color: white;
+}
+.icon-home-link:hover{
+    color:#0077b5 ;
+}
+.icon-home-git{
+    font-size: 50px;
+    transition: all 1s ease-out;
+    color: white;
+}
+.icon-home-git:hover{
+    color:orange ;
+}
+.icon-home-insta{
+    font-size: 50px;
+    transition: all 1s ease-out;
+    color: white;
+}
+.icon-home-insta:hover{
+    color:hsl(0, 86%, 62%) ;
+}
